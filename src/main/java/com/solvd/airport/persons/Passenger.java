@@ -1,8 +1,10 @@
 package main.java.com.solvd.airport.persons;
 
+import main.java.com.solvd.airport.data.AirportFileHandler;
 import main.java.com.solvd.airport.interfaces.ICheckIn;
 import main.java.com.solvd.airport.systens.Flight;
 import main.java.com.solvd.airport.systens.Ticket;
+import main.java.com.solvd.airport.utils.AirportUtils;
 
 import java.util.Objects;
 
@@ -56,6 +58,8 @@ public class Passenger extends Person implements ICheckIn {
         for(Ticket ticket: tickets){
             if(ticket == null) continue;
             LOGGER.debug(ticket.toString());
+            System.out.println("i was here!");
+
         }
     }
 

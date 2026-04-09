@@ -1,6 +1,7 @@
 package main.java.com.solvd.airport.systens;
 
 import main.java.com.solvd.airport.companies.Company;
+import main.java.com.solvd.airport.data.AirportFileHandler;
 import main.java.com.solvd.airport.exceptions.CrewAssignmentException;
 import main.java.com.solvd.airport.exceptions.SeatAllocationException;
 import main.java.com.solvd.airport.persons.Attendant;
@@ -8,6 +9,7 @@ import main.java.com.solvd.airport.persons.Passenger;
 import main.java.com.solvd.airport.persons.Pilot;
 import main.java.com.solvd.airport.places.Airport;
 import main.java.com.solvd.airport.places.City;
+import main.java.com.solvd.airport.utils.AirportUtils;
 import main.java.com.solvd.airport.vehicles.Aircraft;
 import main.java.com.solvd.airport.vehicles.Airplane;
 
@@ -65,7 +67,7 @@ public abstract class AirportSystem {
         }catch(SeatAllocationException e){
             LOGGER.warn(e);
         }
-
+        AirportFileHandler.countTicketsInFile(AirportUtils.DEFAULT_TICKET_DATA_PATH);
     }
 
     //Functions to populate a database with mock data to test the airport system
@@ -77,10 +79,10 @@ public abstract class AirportSystem {
         LOGGER.debug("Cities Populated");
     }
     public static void populateAirports(){
-        airports.add(new Airport(cities.get(0),10));
-        airports.add(new Airport(cities.get(1),10));
-        airports.add(new Airport(cities.get(2),10));
-        airports.add(new Airport(cities.get(3),10));
+        airports.add(new Airport(cities.get(0),10,1));
+        airports.add(new Airport(cities.get(1),10,2));
+        airports.add(new Airport(cities.get(2),10,3));
+        airports.add(new Airport(cities.get(3),10,4));
         LOGGER.debug("Airports populated");
     }
     public static void populateCompanies(){

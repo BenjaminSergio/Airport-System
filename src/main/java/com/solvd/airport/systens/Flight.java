@@ -1,6 +1,7 @@
 package main.java.com.solvd.airport.systens;
 
 import main.java.com.solvd.airport.companies.Company;
+import main.java.com.solvd.airport.data.AirportFileHandler;
 import main.java.com.solvd.airport.exceptions.CrewAssignmentException;
 import main.java.com.solvd.airport.exceptions.SeatAllocationException;
 import main.java.com.solvd.airport.persons.Attendant;
@@ -9,6 +10,7 @@ import main.java.com.solvd.airport.persons.Passenger;
 import main.java.com.solvd.airport.persons.Pilot;
 import main.java.com.solvd.airport.places.Airport;
 import main.java.com.solvd.airport.places.City;
+import main.java.com.solvd.airport.utils.AirportUtils;
 import main.java.com.solvd.airport.vehicles.Aircraft;
 
 import java.util.Arrays;
@@ -30,6 +32,16 @@ public class Flight {
     private Seat[] seats;
     private int openSeats;
     private int flightId;
+    private FlightStatus status;
+
+    public enum FlightStatus{
+        SCHEDULED,
+        BOARDING,
+        DEPARTED,
+        DELAYED,
+        CANCELLED,
+        LANDED
+    }
 
     public Flight(Aircraft aircraft, Airport departureAirport, Airport arrivalAirport, Company company,
                   City departureCity, City arrivalCity,
@@ -49,6 +61,7 @@ public class Flight {
         this.pilots = new Crew[maxPilots];
         this.attendants = new Crew[maxAttendants];
         this.price = price;
+        this.status = FlightStatus.SCHEDULED;
         this.flightId = Objects.hash(this.aircraft,this.departureAirport,this.arrivalAirport,this.flightDate, this.aircraft, this.company);
         createSeats(this.seats,
                     this.aircraft.getColumns(),
@@ -116,7 +129,9 @@ public class Flight {
             for(int j = 0; j < rows; j++){
                 if(seatsAdd<maxSeats){
                     seatId = "0" + i + "-" + j;
-                    seats[seatsAdd] = new Seat(seatId);
+                    if(i<2) seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.FIRST_CLASS);
+                    else if (i<4) seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.BUSINESS);
+                    else seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.ECONOMIC);
                     seatsAdd++;
                 }else{
                     break;
@@ -129,23 +144,21 @@ public class Flight {
     }
 
 
-    public String createTicket(Passenger passenger, Seat seat){
-        String mgs = "Error - Failed in the Ticket Creation";
+    public Ticket createTicket(Passenger passenger, Seat seat){
         Ticket ticket = new Ticket(passenger.getName(), this.getCompany().getCompanyName(),Integer.toString(this.flightId),seat.getSeatId(),this.flightTime,this.flightDate,this.departureCity.getCityName(),this.arrivalCity.getCityName(),this.price);
         Ticket[] tickets = passenger.getTickets();
         for(int index = 0; index < tickets.length;index++){
             if(tickets[index] != null) continue;
             tickets[index] = ticket;
-            mgs = "Success - Ticket Added";
             break;
         }
-        return mgs;
+        return ticket;
     }
 
     public String assignSeat(Passenger passenger) throws SeatAllocationException{
         String msg;
         String resultSeat = "";
-        String resultTicket = "";
+        Ticket resultTicket;
         if(this.openSeats <=0){
             msg = "Flight already Full";
             throw new SeatAllocationException(msg);
@@ -159,10 +172,11 @@ public class Flight {
             if(resultSeat.equals("Success - Seat reserved!")) {
                 this.openSeats--;
                 resultTicket = createTicket(passenger,seats[index]);
+                AirportFileHandler.addTicketToFile(AirportUtils.DEFAULT_TICKET_DATA_PATH,resultTicket);
                 return resultSeat + " Passenger " + passenger.getName() + " allocated in seat: " + seats[index].getSeatId();
             }
         }
-        msg = resultSeat + " | " + resultTicket;
+        msg = resultSeat;
         return  msg;
     }
 
@@ -211,6 +225,7 @@ public class Flight {
                 ", seats=" + Arrays.toString(seats) +
                 ", openSeats=" + openSeats +
                 ", flightId=" + flightId +
+                ", status =" + status +
                 '}';
     }
 }

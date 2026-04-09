@@ -1,15 +1,24 @@
 package main.java.com.solvd.airport.systens;
 
 import main.java.com.solvd.airport.persons.Passenger;
+import main.java.com.solvd.airport.utils.AirportUtils;
 
 public class Seat {
     private String seatId;
     private boolean vacancy;
     private Passenger passenger;
+    private SeatClass seatClass;
 
-    public Seat(String seatId) {
+    public enum SeatClass{
+        ECONOMIC,
+        BUSINESS,
+        FIRST_CLASS
+    }
+
+    public Seat(String seatId, SeatClass seatClass) {
         this.seatId = seatId;
         this.vacancy = true;
+        this.seatClass = seatClass;
     }
 
     public String getSeatId() {
