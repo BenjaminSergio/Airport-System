@@ -9,14 +9,25 @@ import main.java.com.solvd.airport.vehicles.Vehicle;
 import java.util.LinkedList;
 
 public class Airport <T extends Vehicle> implements IMeasure, IManageFly {
+    private int airpotId;
     private City city;
     private Flight[] flights;
     private LinkedList<T> garage;
+    private AirportClimate climate;
+    public enum AirportClimate{
+        SUN,
+        RAIN,
+        TORNADO,
+        SNOW,
+        CLOUD
+    }
 
-    public Airport(City city, int maxFlights){
+    public Airport(City city, int maxFlights, int airportId){
+        this.airpotId = airportId;
         this.city = city;
         this.flights = new Flight[maxFlights];
         this.garage = new LinkedList<>();
+        this.climate = AirportClimate.SUN;
     }
 
     public String  insertFlight(Flight flight){
@@ -51,7 +62,11 @@ public class Airport <T extends Vehicle> implements IMeasure, IManageFly {
     @Override
     public String measureTemperature() {
         String msg = "Temperature is bad!";
-        if(AirportUtils.random.nextBoolean()) msg = "Temperature is OK!";
+        this.climate = AirportClimate.RAIN;
+        if(AirportUtils.random.nextBoolean()) {
+            msg = "Temperature is OK!";
+            this.climate = AirportClimate.SUN;
+        }
         return msg;
     }
 
