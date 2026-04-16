@@ -1,4 +1,4 @@
-package main.java.com.solvd.airport.interfaces;
+package com.solvd.airport.interfaces;
 
 public interface IFly {
     //Every Class that fly must implement

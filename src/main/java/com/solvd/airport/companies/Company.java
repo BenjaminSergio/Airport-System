@@ -1,11 +1,12 @@
-package main.java.com.solvd.airport.companies;
+package com.solvd.airport.companies;
 
-import main.java.com.solvd.airport.interfaces.IManageFly;
-import main.java.com.solvd.airport.systens.Flight;
-import main.java.com.solvd.airport.vehicles.Aircraft;
-import main.java.com.solvd.airport.vehicles.Vehicle;
+import com.solvd.airport.interfaces.IManageFly;
+import com.solvd.airport.systens.Flight;
+import com.solvd.airport.vehicles.Aircraft;
+import com.solvd.airport.vehicles.Vehicle;
 
 import java.util.LinkedList;
+import java.util.Objects;
 
 public class Company<T extends Aircraft> implements IManageFly {
     private String companyName;
@@ -40,12 +41,11 @@ public class Company<T extends Aircraft> implements IManageFly {
         return msg;
     }
     public Vehicle getSpecificVehicle(String vehicleId){
-        Vehicle vehicle = null;
-        for(int i = 0; i < aircrafts.size();i++){
-            if(aircrafts.get(i) == null) continue;
-            if(aircrafts.get(i).getVehicleId().equals(vehicleId)) vehicle = aircrafts.get(i);
-        }
-        return vehicle;
+        return aircrafts.stream()
+                .filter(Objects::nonNull)
+                .filter(v -> v.getVehicleId().equals(vehicleId))
+                .findFirst()
+                .orElse(null);
     }
 
     public String getCompanyName() {

@@ -1,4 +1,4 @@
-package main.java.com.solvd.airport.systens;
+package com.solvd.airport.systens;
 
 import java.util.Objects;
 

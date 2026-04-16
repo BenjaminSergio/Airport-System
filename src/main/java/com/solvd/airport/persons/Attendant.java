@@ -1,7 +1,7 @@
-package main.java.com.solvd.airport.persons;
+package com.solvd.airport.persons;
 
-import main.java.com.solvd.airport.interfaces.ICheckIn;
-import main.java.com.solvd.airport.systens.Flight;
+import com.solvd.airport.interfaces.ICheckIn;
+import com.solvd.airport.systens.Flight;
 
 public class Attendant extends Crew implements ICheckIn {
     public Attendant(String name, int age, String id, String function) {

@@ -1,10 +1,10 @@
-package main.java.com.solvd.airport.persons;
+package com.solvd.airport.persons;
 
-import main.java.com.solvd.airport.interfaces.ICheckIn;
-import main.java.com.solvd.airport.interfaces.IDrive;
-import main.java.com.solvd.airport.interfaces.IManageFly;
-import main.java.com.solvd.airport.systens.Flight;
-import main.java.com.solvd.airport.vehicles.Vehicle;
+import com.solvd.airport.interfaces.ICheckIn;
+import com.solvd.airport.interfaces.IDrive;
+import com.solvd.airport.interfaces.IManageFly;
+import com.solvd.airport.systens.Flight;
+import com.solvd.airport.vehicles.Vehicle;
 
 public class Pilot extends Crew implements ICheckIn, IDrive, IManageFly {
     public Pilot(String name, int age, String id, String function) {

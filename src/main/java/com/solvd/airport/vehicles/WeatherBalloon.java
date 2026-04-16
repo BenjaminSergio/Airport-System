@@ -1,8 +1,8 @@
-package main.java.com.solvd.airport.vehicles;
+package com.solvd.airport.vehicles;
 
-import main.java.com.solvd.airport.exceptions.TemperatureMeasuringException;
-import main.java.com.solvd.airport.utils.AirportUtils;
-import main.java.com.solvd.airport.interfaces.IMeasure;
+import com.solvd.airport.exceptions.TemperatureMeasuringException;
+import com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.interfaces.IMeasure;
 
 public class WeatherBalloon extends Aircraft implements IMeasure {
     public WeatherBalloon(String aircraftId, String aircraftModel, int numSeats, int cols, int rows) {

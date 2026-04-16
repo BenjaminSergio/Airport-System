@@ -1,6 +1,6 @@
-package main.java.com.solvd.airport.persons;
+package com.solvd.airport.persons;
 
-import main.java.com.solvd.airport.vehicles.Vehicle;
+import com.solvd.airport.vehicles.Vehicle;
 
 import java.util.LinkedList;
 import java.util.Objects;
@@ -36,12 +36,11 @@ public abstract class Person <T extends Vehicle>{
     }
 
     public Vehicle getSpecificVehicle(String vehicleId){
-        Vehicle vehicle = null;
-        for(int i = 0; i < vehicles.size();i++){
-            if(vehicles.get(i) == null) continue;
-            if(vehicles.get(i) .getVehicleId().equals(vehicleId)) vehicle = vehicles.get(i) ;
-        }
-        return vehicle;
+        return vehicles.stream()
+                .filter(Objects::nonNull)
+                .filter(v -> v.getVehicleId().equals(vehicleId))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override

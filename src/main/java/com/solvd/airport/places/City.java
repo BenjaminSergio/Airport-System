@@ -1,4 +1,4 @@
-package main.java.com.solvd.airport.places;
+package com.solvd.airport.places;
 
 public class City {
     private String cityName;
