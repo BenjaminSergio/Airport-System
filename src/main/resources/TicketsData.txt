@@ -4,3 +4,9 @@ Ticket{passengerName='Mary Doe', companyName='Gol', flightId='134524943', seatId
 Ticket{passengerName='Mary Doe', companyName='Gol', flightId='134524943', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
 Ticket{passengerName='Mary Doe', companyName='Gol', flightId='134524943', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
 Ticket{passengerName='Mary Doe', companyName='Gol', flightId='134524943', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='545714606', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='1307309534', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='-1632942655', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='311287508', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='-1764175862', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}
+Ticket{passengerName='Mary Doe', companyName='Gol', flightId='545714606', seatId='00-0', flightTime='600', flightDate='2025-12-01', departureCity='Rio de Janeiro', arrivalCity='New York', price=499.99}

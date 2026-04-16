@@ -1,20 +1,21 @@
-package main.java.com.solvd.airport.systens;
+package com.solvd.airport.systens;
 
-import main.java.com.solvd.airport.companies.Company;
-import main.java.com.solvd.airport.data.AirportFileHandler;
-import main.java.com.solvd.airport.exceptions.CrewAssignmentException;
-import main.java.com.solvd.airport.exceptions.SeatAllocationException;
-import main.java.com.solvd.airport.persons.Attendant;
-import main.java.com.solvd.airport.persons.Crew;
-import main.java.com.solvd.airport.persons.Passenger;
-import main.java.com.solvd.airport.persons.Pilot;
-import main.java.com.solvd.airport.places.Airport;
-import main.java.com.solvd.airport.places.City;
-import main.java.com.solvd.airport.utils.AirportUtils;
-import main.java.com.solvd.airport.vehicles.Aircraft;
+import com.solvd.airport.companies.Company;
+import com.solvd.airport.data.AirportFileHandler;
+import com.solvd.airport.exceptions.CrewAssignmentException;
+import com.solvd.airport.exceptions.SeatAllocationException;
+import com.solvd.airport.persons.Attendant;
+import com.solvd.airport.persons.Crew;
+import com.solvd.airport.persons.Passenger;
+import com.solvd.airport.persons.Pilot;
+import com.solvd.airport.places.Airport;
+import com.solvd.airport.places.City;
+import com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.vehicles.Aircraft;
 
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.stream.IntStream;
 
 public class Flight {
     private Aircraft aircraft;
@@ -32,6 +33,11 @@ public class Flight {
     private Seat[] seats;
     private int openSeats;
     private int flightId;
+
+    public FlightStatus getStatus() {
+        return status;
+    }
+
     private FlightStatus status;
 
     public enum FlightStatus{
@@ -122,25 +128,24 @@ public class Flight {
     private void createSeats(Seat[] seats, int columns, int rows){
         /* This function creates the seats while assign different ids for them,
         * a flight cannot have 2 seats with the same id*/
-        String seatId;
-        int seatsAdd = 0;
         int maxSeats = seats.length;
-        for(int i =0; i < columns; i++){
-            for(int j = 0; j < rows; j++){
-                if(seatsAdd<maxSeats){
-                    seatId = "0" + i + "-" + j;
-                    if(i<2) seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.FIRST_CLASS);
-                    else if (i<4) seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.BUSINESS);
-                    else seats[seatsAdd] = new Seat(seatId, Seat.SeatClass.ECONOMIC);
-                    seatsAdd++;
-                }else{
-                    break;
-                }                
-            }
-            if(seatsAdd >= maxSeats){
-                break;
-            }
-        }
+        IntStream.range(0, columns).boxed()
+                // 2. flatMap to rows (list2) to create [i, j] pairs
+                .flatMap(i -> IntStream.range(0, rows).mapToObj(j -> new int[]{i, j}))
+                // Limit to maxSeats to replace the `break;` condition
+                .limit(maxSeats)
+                .forEach(pair -> {
+                    int i = pair[0];
+                    int j = pair[1];
+                    String seatId = "0" + i + "-" + j;
+
+                    // Calculate the 1D array index from the 2D coordinates
+                    int index = (i * rows) + j;
+
+                    if (i < 2) seats[index] = new Seat(seatId, Seat.SeatClass.FIRST_CLASS);
+                    else if (i < 4) seats[index] = new Seat(seatId, Seat.SeatClass.BUSINESS);
+                    else seats[index] = new Seat(seatId, Seat.SeatClass.ECONOMIC);
+                });
     }
 
 
@@ -163,46 +168,49 @@ public class Flight {
             msg = "Flight already Full";
             throw new SeatAllocationException(msg);
         }
+        msg = java.util.Arrays.stream(seats)
+                .filter(java.util.Objects::nonNull)
+                .map(seat -> {
+                    String res = seat.assignSeat(passenger);
+                    if (res.equals("Success - Seat reserved!")) {
+                        this.openSeats--;
+                        Ticket ticket = createTicket(passenger, seat);
+                        AirportFileHandler.addTicketToFile(AirportUtils.DEFAULT_TICKET_DATA_PATH, ticket);
+                        return res + " Passenger " + passenger.getName() + " allocated in seat: " + seat.getSeatId();
+                    }
+                    return null;
+                })
+                .filter(java.util.Objects::nonNull)
+                .findFirst()
+                .orElse("Error - Seat already occupied!");
 
-        for(int index = 0; index < seats.length;index++){
-            if(seats[index] == null){
-                continue;
-            }
-            resultSeat = seats[index].assignSeat(passenger);
-            if(resultSeat.equals("Success - Seat reserved!")) {
-                this.openSeats--;
-                resultTicket = createTicket(passenger,seats[index]);
-                AirportFileHandler.addTicketToFile(AirportUtils.DEFAULT_TICKET_DATA_PATH,resultTicket);
-                return resultSeat + " Passenger " + passenger.getName() + " allocated in seat: " + seats[index].getSeatId();
-            }
-        }
-        msg = resultSeat;
         return  msg;
     }
 
     public String assignPilot(Pilot pilot) throws CrewAssignmentException {
-        String msg = "Error - Cannot Assign Pilot";
+        String msg = IntStream.range(0, pilots.length)
+                .boxed()
+                .filter(i -> pilots[i] == null)
+                .findFirst()
+                .map(i -> {
+                    pilots[i] = pilot;
+                    return "Success - Pilot Assigned";
+                })
+                .orElse("Error - Cannot Assign Pilot");
 
-        for(Crew crew:pilots){
-            if(crew == null){
-                crew = (Crew)pilot;
-                msg = "Success - Pilot Assigned";
-                break;
-            }
-        }
         if(msg.equals("Error - Cannot Assign Pilot")) throw new CrewAssignmentException("Error - Cannot Assign Pilot");
         return msg;
     }
     public String assignAttendant(Attendant attendant) throws CrewAssignmentException {
-        String msg = "Error - Cannot Assign Attendant";
-
-        for(Crew crew:attendants){
-            if(crew == null){
-                crew = (Crew)attendant;
-                msg = "Success - Attendant Assigned";
-                break;
-            }
-        }
+        String msg = IntStream.range(0, attendants.length)
+                .boxed()
+                .filter(i -> attendants[i] == null)
+                .findFirst()
+                .map(i -> {
+                    attendants[i] = attendant;
+                    return "Success - Attendant Assigned";
+                })
+                .orElse("Error - Cannot Assign Attendant");
         if(msg.equals("Error - Cannot Assign Attendant")) throw new CrewAssignmentException("Error - Cannot Assign Attendant");
         return msg;
     }

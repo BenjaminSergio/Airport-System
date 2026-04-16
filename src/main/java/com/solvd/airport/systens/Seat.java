@@ -1,7 +1,6 @@
-package main.java.com.solvd.airport.systens;
+package com.solvd.airport.systens;
 
-import main.java.com.solvd.airport.persons.Passenger;
-import main.java.com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.persons.Passenger;
 
 public class Seat {
     private String seatId;

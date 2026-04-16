@@ -1,6 +1,6 @@
-package main.java.com.solvd.airport.interfaces;
+package com.solvd.airport.interfaces;
 
-import main.java.com.solvd.airport.systens.Flight;
+import com.solvd.airport.systens.Flight;
 
 public interface ICheckIn {
     //Every Class that can enter in a fly must implement this interface

@@ -1,6 +1,6 @@
-package main.java.com.solvd.airport;
+package com.solvd.airport;
 
-import main.java.com.solvd.airport.systens.AirportSystem;
+import com.solvd.airport.systens.AirportSystem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

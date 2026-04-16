@@ -1,4 +1,4 @@
-package main.java.com.solvd.airport.persons;
+package com.solvd.airport.persons;
 
 import java.util.Objects;
 

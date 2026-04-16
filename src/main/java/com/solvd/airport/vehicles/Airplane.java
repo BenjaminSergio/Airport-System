@@ -1,8 +1,8 @@
-package main.java.com.solvd.airport.vehicles;
+package com.solvd.airport.vehicles;
 
-import main.java.com.solvd.airport.utils.AirportUtils;
-import main.java.com.solvd.airport.interfaces.IFly;
-import main.java.com.solvd.airport.interfaces.IMeasure;
+import com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.interfaces.IFly;
+import com.solvd.airport.interfaces.IMeasure;
 
 public class Airplane extends Aircraft implements IFly, IMeasure {
 

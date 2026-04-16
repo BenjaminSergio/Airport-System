@@ -1,14 +1,14 @@
-package main.java.com.solvd.airport.data;
+package com.solvd.airport.data;
 
-import main.java.com.solvd.airport.systens.Ticket;
-import main.java.com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.systens.Ticket;
+import com.solvd.airport.utils.AirportUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
 import java.io.IOException;
 
-import static main.java.com.solvd.airport.Main.LOGGER;
+import static com.solvd.airport.Main.LOGGER;
 
 public abstract class AirportFileHandler {
     public static void addTicketToFile(String filePath, Ticket ticket){

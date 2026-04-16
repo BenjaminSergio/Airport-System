@@ -1,621 +1,621 @@
-2026-03-25 23:14:47,839 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:14:47,843 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:15:34,207 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:15:34,212 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:16:43,831 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:16:43,834 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:17:10,673 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:17:10,677 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:18:42,218 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:18:42,222 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:19:37,500 [main] INFO main.java.com.solvd.airport.Main - This is a log info message
-2026-03-25 23:19:37,505 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:38:59,222 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:38:59,227 [main] DEBUG main.java.com.solvd.airport.Main - cheapest Flight: Golprice: 499.99available seats: 100
-2026-03-25 23:38:59,228 [main] DEBUG main.java.com.solvd.airport.Main - shortest Flight: Azultime: 550available seats: 100
-2026-03-25 23:38:59,249 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:40:05,988 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:40:05,994 [main] DEBUG main.java.com.solvd.airport.Main - cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:40:05,994 [main] DEBUG main.java.com.solvd.airport.Main - shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:40:06,015 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:42:55,184 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:42:55,190 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:42:55,190 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:42:55,190 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-25 23:42:55,198 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe
+2026-03-25 23:14:47,839 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:14:47,843 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:15:34,207 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:15:34,212 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:16:43,831 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:16:43,834 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:17:10,673 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:17:10,677 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:18:42,218 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:18:42,222 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:19:37,500 [main] INFO main.java.airport.com.solvd.arport.Main - This is a log info message
+2026-03-25 23:19:37,505 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:38:59,222 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:38:59,227 [main] DEBUG main.java.airport.com.solvd.arport.Main - cheapest Flight: Golprice: 499.99available seats: 100
+2026-03-25 23:38:59,228 [main] DEBUG main.java.airport.com.solvd.arport.Main - shortest Flight: Azultime: 550available seats: 100
+2026-03-25 23:38:59,249 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:40:05,988 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:40:05,994 [main] DEBUG main.java.airport.com.solvd.arport.Main - cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:40:05,994 [main] DEBUG main.java.airport.com.solvd.arport.Main - shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:40:06,015 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:42:55,184 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:42:55,190 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:42:55,190 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:42:55,190 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-25 23:42:55,198 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe
 Id: 987654321
 Age: 19
 Number of Baggages: 0 | Total Weight: 0
-2026-03-25 23:42:55,199 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-25 23:42:55,199 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov
+2026-03-25 23:42:55,199 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-25 23:42:55,199 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov
 Id: 23134143-3123
 Age: 45
 Function: First Pilot
-2026-03-25 23:42:55,199 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-25 23:42:55,199 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-25 23:42:55,199 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:44:53,954 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:44:53,961 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:44:53,961 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:44:53,961 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-25 23:44:53,971 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe
+2026-03-25 23:42:55,199 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-25 23:42:55,199 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-25 23:42:55,199 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:44:53,954 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:44:53,961 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:44:53,961 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:44:53,961 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-25 23:44:53,971 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe
 Id: 987654321
 Age: 19
 Number of Baggages: 0 | Total Weight: 0
-2026-03-25 23:44:53,971 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-25 23:44:53,972 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov
+2026-03-25 23:44:53,971 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-25 23:44:53,972 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov
 Id: 23134143-3123
 Age: 45
 Function: First Pilot
-2026-03-25 23:44:53,972 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-25 23:44:53,972 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-25 23:44:53,976 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved!
+2026-03-25 23:44:53,972 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-25 23:44:53,972 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-25 23:44:53,976 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved!
 Passenger Mary Doe alocated in seat: 00-0
-2026-03-25 23:44:53,976 [main] DEBUG main.java.com.solvd.airport.Main - Debug
-2026-03-25 23:46:01,620 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:46:01,626 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:46:01,626 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:46:01,626 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-25 23:46:01,636 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe
+2026-03-25 23:44:53,976 [main] DEBUG main.java.airport.com.solvd.arport.Main - Debug
+2026-03-25 23:46:01,620 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:46:01,626 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:46:01,626 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:46:01,626 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-25 23:46:01,636 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe
 Id: 987654321
 Age: 19
 Number of Baggages: 0 | Total Weight: 0
-2026-03-25 23:46:01,636 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-25 23:46:01,638 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov
+2026-03-25 23:46:01,636 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-25 23:46:01,638 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov
 Id: 23134143-3123
 Age: 45
 Function: First Pilot
-2026-03-25 23:46:01,638 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-25 23:46:01,638 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-25 23:46:01,641 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved!
+2026-03-25 23:46:01,638 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-25 23:46:01,638 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-25 23:46:01,641 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved!
 Passenger Mary Doe alocated in seat: 00-0
-2026-03-25 23:46:01,641 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-25 23:46:50,334 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:46:50,340 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:46:50,340 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:46:50,340 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-25 23:46:50,350 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe
+2026-03-25 23:46:01,641 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-25 23:46:50,334 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:46:50,340 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:46:50,340 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:46:50,340 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-25 23:46:50,350 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe
 Id: 987654321
 Age: 19
 Number of Baggages: 0 | Total Weight: 0
-2026-03-25 23:46:50,351 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-25 23:46:50,351 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov
+2026-03-25 23:46:50,351 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-25 23:46:50,351 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov
 Id: 23134143-3123
 Age: 45
 Function: First Pilot
-2026-03-25 23:46:50,351 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-25 23:46:50,351 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-25 23:46:50,355 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved!
+2026-03-25 23:46:50,351 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-25 23:46:50,351 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-25 23:46:50,355 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved!
 Passenger Mary Doe alocated in seat: 00-0
-2026-03-25 23:46:50,355 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-25 23:50:21,991 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-25 23:50:21,994 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-25 23:50:21,994 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-25 23:50:21,995 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-25 23:50:22,000 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-25 23:50:22,005 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-25 23:50:22,009 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-25 23:50:22,009 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-25 23:50:22,009 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-25 23:50:22,019 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe
+2026-03-25 23:46:50,355 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-25 23:50:21,991 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-25 23:50:21,994 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-25 23:50:21,994 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-25 23:50:21,995 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-25 23:50:22,000 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-25 23:50:22,005 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-25 23:50:22,009 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-25 23:50:22,009 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-25 23:50:22,009 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-25 23:50:22,019 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe
 Id: 987654321
 Age: 19
 Number of Baggages: 0 | Total Weight: 0
-2026-03-25 23:50:22,019 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-25 23:50:22,019 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov
+2026-03-25 23:50:22,019 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-25 23:50:22,019 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov
 Id: 23134143-3123
 Age: 45
 Function: First Pilot
-2026-03-25 23:50:22,019 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-25 23:50:22,020 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-25 23:50:22,023 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved!
+2026-03-25 23:50:22,019 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-25 23:50:22,020 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-25 23:50:22,023 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved!
 Passenger Mary Doe alocated in seat: 00-0
-2026-03-25 23:50:22,023 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-26 00:07:46,072 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-26 00:07:46,075 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-26 00:07:46,075 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-26 00:07:46,076 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-26 00:07:46,082 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-26 00:07:46,086 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-26 00:07:46,090 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-26 00:07:46,090 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-26 00:07:46,090 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-26 00:07:46,099 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-03-26 00:07:46,099 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-26 00:07:46,100 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-25 23:50:22,023 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-26 00:07:46,072 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-26 00:07:46,075 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-26 00:07:46,075 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-26 00:07:46,076 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-26 00:07:46,082 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-26 00:07:46,086 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-26 00:07:46,090 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-26 00:07:46,090 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-26 00:07:46,090 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-26 00:07:46,099 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-03-26 00:07:46,099 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-26 00:07:46,100 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-03-26 00:07:46,100 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-26 00:07:46,100 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-26 00:07:46,104 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-03-26 00:07:46,104 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-26 00:20:31,078 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-26 00:20:31,096 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-26 00:20:31,096 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-26 00:20:31,096 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-26 00:20:31,103 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-26 00:20:31,108 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-26 00:20:31,110 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-26 00:20:31,111 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-26 00:20:31,111 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-26 00:20:31,121 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-03-26 00:20:31,121 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-26 00:20:31,121 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-26 00:07:46,100 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-26 00:07:46,100 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-26 00:07:46,104 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-03-26 00:07:46,104 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-26 00:20:31,078 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-26 00:20:31,096 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-26 00:20:31,096 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-26 00:20:31,096 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-26 00:20:31,103 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-26 00:20:31,108 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-26 00:20:31,110 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-26 00:20:31,111 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-26 00:20:31,111 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-26 00:20:31,121 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-03-26 00:20:31,121 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-26 00:20:31,121 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-03-26 00:20:31,122 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-26 00:20:31,122 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-26 00:20:31,125 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-03-26 00:20:31,125 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-27 22:25:01,491 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-27 22:25:01,511 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-27 22:25:01,511 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-27 22:25:01,513 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-27 22:25:01,533 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-27 22:25:01,540 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-27 22:25:01,544 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-27 22:25:01,544 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-27 22:25:01,544 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-27 22:25:01,559 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-03-27 22:25:01,559 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-27 22:25:01,559 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-26 00:20:31,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-26 00:20:31,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-26 00:20:31,125 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-03-26 00:20:31,125 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-27 22:25:01,491 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-27 22:25:01,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-27 22:25:01,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-27 22:25:01,513 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-27 22:25:01,533 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-27 22:25:01,540 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-27 22:25:01,544 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-27 22:25:01,544 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-27 22:25:01,544 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-27 22:25:01,559 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-03-27 22:25:01,559 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-27 22:25:01,559 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-03-27 22:25:01,559 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-27 22:25:01,559 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-27 22:25:01,565 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-03-27 22:25:01,565 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-27 22:40:27,556 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-27 22:40:27,583 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-27 22:40:27,584 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-27 22:40:27,584 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-27 22:40:27,590 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-27 22:40:27,596 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-27 22:40:27,600 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-27 22:40:27,601 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-27 22:40:27,601 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-27 22:40:27,612 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-03-27 22:40:27,612 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-27 22:40:27,613 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-27 22:25:01,559 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-27 22:25:01,559 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-27 22:25:01,565 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-03-27 22:25:01,565 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-27 22:40:27,556 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-27 22:40:27,583 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-27 22:40:27,584 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-27 22:40:27,584 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-27 22:40:27,590 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-27 22:40:27,596 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-27 22:40:27,600 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-27 22:40:27,601 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-27 22:40:27,601 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-27 22:40:27,612 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-03-27 22:40:27,612 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-27 22:40:27,613 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-03-27 22:40:27,613 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-27 22:40:27,613 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-27 22:40:27,618 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-03-27 22:40:27,618 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-03-27 22:44:49,542 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-03-27 22:44:49,548 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-03-27 22:44:49,565 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-03-27 22:44:49,565 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-03-27 22:44:49,571 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-03-27 22:44:49,578 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-03-27 22:44:49,583 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-03-27 22:44:49,583 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-03-27 22:44:49,583 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-03-27 22:44:49,597 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-03-27 22:44:49,597 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-03-27 22:44:49,598 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-27 22:40:27,613 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-27 22:40:27,613 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-27 22:40:27,618 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-03-27 22:40:27,618 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-03-27 22:44:49,542 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-03-27 22:44:49,548 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-03-27 22:44:49,565 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-03-27 22:44:49,565 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-03-27 22:44:49,571 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-03-27 22:44:49,578 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-03-27 22:44:49,583 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-03-27 22:44:49,583 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-03-27 22:44:49,583 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-03-27 22:44:49,597 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-03-27 22:44:49,597 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-03-27 22:44:49,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-03-27 22:44:49,598 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-03-27 22:44:49,598 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-03-27 22:44:49,603 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-03-27 22:44:49,603 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 19:43:16,171 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 19:43:16,180 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 19:43:16,182 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 19:43:16,182 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 19:43:16,193 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 19:43:16,202 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 19:43:16,207 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 19:43:16,207 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 19:43:16,207 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 19:43:16,229 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 19:43:16,229 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 19:43:16,230 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-03-27 22:44:49,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-03-27 22:44:49,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-03-27 22:44:49,603 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-03-27 22:44:49,603 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 19:43:16,171 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 19:43:16,180 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 19:43:16,182 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 19:43:16,182 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 19:43:16,193 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 19:43:16,202 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 19:43:16,207 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 19:43:16,207 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 19:43:16,207 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 19:43:16,229 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 19:43:16,229 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 19:43:16,230 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 19:43:16,230 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 19:43:16,230 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 19:43:16,237 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 19:43:16,237 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 19:53:12,988 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 19:53:12,995 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 19:53:12,996 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 19:53:12,997 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 19:53:13,005 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 19:53:13,010 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 19:53:13,017 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 19:53:13,017 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 19:53:13,017 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 19:53:13,026 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 19:53:13,026 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 19:53:13,026 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 19:43:16,230 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 19:43:16,230 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 19:43:16,237 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 19:43:16,237 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 19:53:12,988 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 19:53:12,995 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 19:53:12,996 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 19:53:12,997 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 19:53:13,005 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 19:53:13,010 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 19:53:13,017 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 19:53:13,017 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 19:53:13,017 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 19:53:13,026 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 19:53:13,026 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 19:53:13,026 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 19:53:13,026 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 19:53:13,027 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 19:53:13,030 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 19:53:13,030 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 19:53:29,477 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 19:53:29,483 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 19:53:29,484 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 19:53:29,485 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 19:53:29,491 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 19:53:29,495 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 19:53:29,502 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 19:53:29,502 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 19:53:29,502 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 19:53:29,510 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 19:53:29,511 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 19:53:29,511 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 19:53:13,026 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 19:53:13,027 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 19:53:13,030 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 19:53:13,030 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 19:53:29,477 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 19:53:29,483 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 19:53:29,484 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 19:53:29,485 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 19:53:29,491 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 19:53:29,495 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 19:53:29,502 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 19:53:29,502 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 19:53:29,502 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 19:53:29,510 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 19:53:29,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 19:53:29,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 19:53:29,511 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 19:53:29,511 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 19:53:29,515 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 19:53:29,515 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 19:55:28,122 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 19:55:28,130 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 19:55:28,131 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 19:55:28,132 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 19:55:28,138 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 19:55:28,145 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 19:55:28,150 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 19:55:28,150 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 19:55:28,150 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 19:55:28,161 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 19:55:28,162 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 19:55:28,162 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 19:53:29,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 19:53:29,511 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 19:53:29,515 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 19:53:29,515 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 19:55:28,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 19:55:28,130 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 19:55:28,131 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 19:55:28,132 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 19:55:28,138 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 19:55:28,145 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 19:55:28,150 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 19:55:28,150 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 19:55:28,150 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 19:55:28,161 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 19:55:28,162 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 19:55:28,162 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 19:55:28,162 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 19:55:28,162 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 19:55:28,166 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 19:55:28,166 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 20:07:53,681 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 20:07:53,687 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 20:07:53,688 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 20:07:53,688 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 20:07:53,694 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 20:07:53,698 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 20:07:53,703 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 20:07:53,703 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 20:07:53,703 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 20:07:53,712 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 20:07:53,712 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 20:07:53,713 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 19:55:28,162 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 19:55:28,162 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 19:55:28,166 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 19:55:28,166 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 20:07:53,681 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 20:07:53,687 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 20:07:53,688 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 20:07:53,688 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 20:07:53,694 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 20:07:53,698 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 20:07:53,703 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 20:07:53,703 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 20:07:53,703 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 20:07:53,712 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 20:07:53,712 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 20:07:53,713 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 20:07:53,713 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 20:07:53,713 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 20:07:53,717 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 20:07:53,717 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 20:25:36,286 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 20:25:36,291 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 20:25:36,292 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 20:25:36,293 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 20:25:36,300 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 20:25:36,306 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 20:25:36,309 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 20:25:36,310 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 20:25:36,310 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 20:25:36,320 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 20:25:36,321 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 20:25:36,321 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 20:07:53,713 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 20:07:53,713 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 20:07:53,717 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 20:07:53,717 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 20:25:36,286 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 20:25:36,291 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 20:25:36,292 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 20:25:36,293 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 20:25:36,300 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 20:25:36,306 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 20:25:36,309 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 20:25:36,310 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 20:25:36,310 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 20:25:36,320 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 20:25:36,321 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 20:25:36,321 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 20:25:36,321 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 20:25:36,321 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 20:25:36,324 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 20:25:36,325 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-01 20:25:48,103 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-01 20:25:48,108 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-01 20:25:48,109 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-01 20:25:48,109 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-01 20:25:48,115 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-01 20:25:48,119 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-01 20:25:48,122 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-01 20:25:48,122 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-01 20:25:48,123 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-01 20:25:48,131 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-01 20:25:48,131 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-01 20:25:48,132 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 20:25:36,321 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 20:25:36,321 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 20:25:36,324 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 20:25:36,325 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-01 20:25:48,103 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-01 20:25:48,108 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-01 20:25:48,109 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-01 20:25:48,109 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-01 20:25:48,115 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-01 20:25:48,119 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-01 20:25:48,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-01 20:25:48,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-01 20:25:48,123 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-01 20:25:48,131 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-01 20:25:48,131 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-01 20:25:48,132 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-01 20:25:48,132 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-01 20:25:48,132 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-01 20:25:48,136 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-01 20:25:48,136 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-05 21:48:22,187 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-05 21:48:22,195 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-05 21:48:22,196 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-05 21:48:22,196 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-05 21:48:22,207 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-05 21:48:22,214 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-05 21:48:22,217 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-05 21:48:22,217 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-05 21:48:22,217 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-05 21:48:22,231 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-05 21:48:22,232 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-05 21:48:22,232 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-01 20:25:48,132 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-01 20:25:48,132 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-01 20:25:48,136 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-01 20:25:48,136 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-05 21:48:22,187 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-05 21:48:22,195 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-05 21:48:22,196 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-05 21:48:22,196 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-05 21:48:22,207 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-05 21:48:22,214 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-05 21:48:22,217 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-05 21:48:22,217 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-05 21:48:22,217 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-05 21:48:22,231 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-05 21:48:22,232 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-05 21:48:22,232 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-05 21:48:22,232 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-05 21:48:22,232 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-05 21:48:22,238 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-05 21:48:22,238 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-05 21:49:02,122 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-05 21:49:02,128 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-05 21:49:02,129 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-05 21:49:02,130 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-05 21:49:02,135 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-05 21:49:02,140 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-05 21:49:02,144 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-05 21:49:02,144 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-05 21:49:02,144 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-05 21:49:02,153 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-05 21:49:02,153 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-05 21:49:02,154 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-05 21:48:22,232 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-05 21:48:22,232 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-05 21:48:22,238 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-05 21:48:22,238 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-05 21:49:02,122 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-05 21:49:02,128 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-05 21:49:02,129 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-05 21:49:02,130 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-05 21:49:02,135 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-05 21:49:02,140 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-05 21:49:02,144 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-05 21:49:02,144 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-05 21:49:02,144 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-05 21:49:02,153 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-05 21:49:02,153 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-05 21:49:02,154 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-05 21:49:02,154 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-05 21:49:02,154 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-05 21:49:02,157 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-05 21:49:02,157 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-05 21:51:19,092 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-05 21:51:19,099 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-05 21:51:19,100 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-05 21:51:19,100 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-05 21:51:19,107 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-05 21:51:19,114 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-05 21:51:19,117 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-05 21:51:19,117 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-05 21:51:19,118 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-05 21:51:19,127 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-05 21:51:19,128 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-05 21:51:19,128 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-05 21:49:02,154 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-05 21:49:02,154 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-05 21:49:02,157 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-05 21:49:02,157 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-05 21:51:19,092 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-05 21:51:19,099 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-05 21:51:19,100 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-05 21:51:19,100 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-05 21:51:19,107 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-05 21:51:19,114 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-05 21:51:19,117 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-05 21:51:19,117 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-05 21:51:19,118 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-05 21:51:19,127 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-05 21:51:19,128 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-05 21:51:19,128 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-05 21:51:19,128 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-05 21:51:19,128 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-05 21:51:19,131 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-05 21:51:19,132 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-05 21:52:31,458 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-05 21:52:31,464 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-05 21:52:31,464 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-05 21:52:31,465 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-05 21:52:31,470 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-05 21:52:31,473 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-05 21:52:31,477 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-05 21:52:31,477 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-05 21:52:31,477 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-05 21:52:31,486 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-05 21:52:31,487 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-05 21:52:31,487 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-05 21:51:19,128 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-05 21:51:19,128 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-05 21:51:19,131 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-05 21:51:19,132 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-05 21:52:31,458 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-05 21:52:31,464 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-05 21:52:31,464 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-05 21:52:31,465 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-05 21:52:31,470 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-05 21:52:31,473 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-05 21:52:31,477 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-05 21:52:31,477 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-05 21:52:31,477 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-05 21:52:31,486 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-05 21:52:31,487 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-05 21:52:31,487 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-05 21:52:31,487 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-05 21:52:31,487 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-05 21:52:31,490 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-05 21:52:31,490 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-05 21:55:58,592 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-05 21:55:58,597 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-05 21:55:58,598 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-05 21:55:58,598 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-05 21:55:58,605 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-05 21:55:58,611 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-05 21:55:58,614 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-05 21:55:58,614 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-05 21:55:58,614 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-05 21:55:58,623 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-05 21:55:58,624 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-05 21:55:58,624 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-05 21:52:31,487 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-05 21:52:31,487 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-05 21:52:31,490 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-05 21:52:31,490 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-05 21:55:58,592 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-05 21:55:58,597 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-05 21:55:58,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-05 21:55:58,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-05 21:55:58,605 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-05 21:55:58,611 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-05 21:55:58,614 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-05 21:55:58,614 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-05 21:55:58,614 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-05 21:55:58,623 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-05 21:55:58,624 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-05 21:55:58,624 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-05 21:55:58,624 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-05 21:55:58,624 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-05 21:55:58,628 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-05 21:55:58,628 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 22:38:22,483 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 22:38:22,491 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 22:38:22,492 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 22:38:22,492 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 22:38:22,503 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 22:38:22,505 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 22:38:22,509 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 22:38:22,509 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 22:38:22,509 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 22:38:22,523 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 22:38:22,523 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 22:38:22,524 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-05 21:55:58,624 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-05 21:55:58,624 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-05 21:55:58,628 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-05 21:55:58,628 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 22:38:22,483 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 22:38:22,491 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 22:38:22,492 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 22:38:22,492 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 22:38:22,503 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 22:38:22,505 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 22:38:22,509 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 22:38:22,509 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 22:38:22,509 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 22:38:22,523 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 22:38:22,523 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 22:38:22,524 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 22:38:22,524 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 22:38:22,524 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 22:38:22,529 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 22:38:22,529 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:18:18,340 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:18:18,348 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:18:18,349 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:18:18,349 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:18:18,360 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:18:18,365 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:18:18,369 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:18:18,370 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:18:18,370 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:18:18,383 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:18:18,384 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:18:18,384 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 22:38:22,524 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 22:38:22,524 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 22:38:22,529 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 22:38:22,529 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:18:18,340 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:18:18,348 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:18:18,349 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:18:18,349 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:18:18,360 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:18:18,365 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:18:18,369 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:18:18,370 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:18:18,370 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:18:18,383 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:18:18,384 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:18:18,384 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:18:51,184 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:18:51,190 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:18:51,192 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:18:51,192 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:18:51,202 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:18:51,205 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:18:51,209 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:18:51,210 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:18:51,210 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:18:51,223 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:18:51,224 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:18:51,224 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:18:51,184 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:18:51,190 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:18:51,192 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:18:51,192 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:18:51,202 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:18:51,205 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:18:51,209 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:18:51,210 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:18:51,210 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:18:51,223 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:18:51,224 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:18:51,224 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:19:57,901 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:19:57,909 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:19:57,910 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:19:57,910 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:19:57,921 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:19:57,925 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:19:57,930 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:19:57,930 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:19:57,930 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:19:57,946 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:19:57,947 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:19:57,947 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:19:57,901 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:19:57,909 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:19:57,910 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:19:57,910 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:19:57,921 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:19:57,925 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:19:57,930 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:19:57,930 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:19:57,930 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:19:57,946 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:19:57,947 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:19:57,947 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:19:57,947 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:19:57,947 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:19:57,952 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:19:57,952 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:21:05,841 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:21:05,848 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:21:05,849 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:21:05,849 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:21:05,860 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:21:05,865 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:21:05,869 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:21:05,869 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:21:05,870 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:21:05,883 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:21:05,884 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:21:05,884 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:19:57,947 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:19:57,947 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:19:57,952 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:19:57,952 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:21:05,841 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:21:05,848 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:21:05,849 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:21:05,849 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:21:05,860 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:21:05,865 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:21:05,869 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:21:05,869 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:21:05,870 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:21:05,883 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:21:05,884 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:21:05,884 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:21:05,884 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:21:05,884 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:21:05,896 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:21:05,896 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:21:51,808 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:21:51,814 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:21:51,815 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:21:51,815 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:21:51,824 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:21:51,827 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:21:51,831 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:21:51,831 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:21:51,831 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:21:51,845 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:21:51,845 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:21:51,845 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:21:05,884 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:21:05,884 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:21:05,896 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:21:05,896 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:21:51,808 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:21:51,814 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:21:51,815 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:21:51,815 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:21:51,824 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:21:51,827 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:21:51,831 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:21:51,831 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:21:51,831 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:21:51,845 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:21:51,845 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:21:51,845 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:21:51,845 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:21:51,845 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:21:51,850 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:21:51,850 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:24:11,512 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:24:11,518 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:24:11,520 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:24:11,521 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:24:11,530 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:24:11,534 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:24:11,538 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:24:11,538 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:24:11,538 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:24:11,552 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:24:11,552 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:24:11,552 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:21:51,845 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:21:51,845 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:21:51,850 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:21:51,850 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:24:11,512 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:24:11,518 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:24:11,520 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:24:11,521 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:24:11,530 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:24:11,534 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:24:11,538 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:24:11,538 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:24:11,538 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:24:11,552 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:24:11,552 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:24:11,552 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:24:11,552 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:24:11,553 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:24:11,564 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:24:11,564 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:28:07,603 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:28:07,610 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:28:07,611 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:28:07,611 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:28:07,621 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:28:07,624 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:28:07,628 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:28:07,628 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:28:07,628 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:28:07,641 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:28:07,642 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:28:07,642 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:24:11,552 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:24:11,553 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:24:11,564 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:24:11,564 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:28:07,603 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:28:07,610 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:28:07,611 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:28:07,611 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:28:07,621 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:28:07,624 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:28:07,628 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:28:07,628 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:28:07,628 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:28:07,641 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:28:07,642 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:28:07,642 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:28:07,642 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:28:07,642 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:28:07,692 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:28:07,697 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:28:07,697 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:28:18,360 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:28:18,366 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:28:18,368 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:28:18,368 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:28:18,377 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:28:18,380 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:28:18,384 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:28:18,385 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:28:18,385 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:28:18,397 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:28:18,397 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:28:18,398 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:28:07,642 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:28:07,642 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:28:07,692 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:28:07,697 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:28:07,697 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:28:18,360 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:28:18,366 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:28:18,368 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:28:18,368 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:28:18,377 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:28:18,380 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:28:18,384 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:28:18,385 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:28:18,385 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:28:18,397 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:28:18,397 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:28:18,398 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:28:18,398 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:28:18,398 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:28:18,447 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:28:18,450 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:28:18,451 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:30:04,940 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:30:04,948 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:30:04,949 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:30:04,949 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:30:04,959 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:30:04,962 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:30:04,966 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:30:04,967 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:30:04,967 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:30:04,980 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:30:04,980 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:30:04,981 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:28:18,398 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:28:18,398 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:28:18,447 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:28:18,450 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:28:18,451 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:30:04,940 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:30:04,948 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:30:04,949 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:30:04,949 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:30:04,959 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:30:04,962 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:30:04,966 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:30:04,967 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:30:04,967 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:30:04,980 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:30:04,980 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:30:04,981 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:30:04,981 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:30:04,981 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:30:05,030 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:30:05,033 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:30:05,033 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:32:19,487 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:32:19,494 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:32:19,495 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:32:19,495 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:32:19,505 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:32:19,508 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:32:19,512 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:32:19,512 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:32:19,513 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:32:19,526 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:32:19,526 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:32:19,526 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:30:04,981 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:30:04,981 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:30:05,030 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:30:05,033 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:30:05,033 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:32:19,487 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:32:19,494 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:32:19,495 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:32:19,495 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:32:19,505 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:32:19,508 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:32:19,512 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:32:19,512 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:32:19,513 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:32:19,526 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:32:19,526 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:32:19,526 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:32:19,526 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:32:19,526 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:32:19,580 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:32:19,584 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:32:19,584 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:32:34,579 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:32:34,584 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:32:34,585 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:32:34,586 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:32:34,595 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:32:34,598 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:32:34,602 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:32:34,603 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:32:34,603 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:32:34,616 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:32:34,616 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:32:34,616 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:32:19,526 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:32:19,526 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:32:19,580 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:32:19,584 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:32:19,584 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:32:34,579 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:32:34,584 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:32:34,585 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:32:34,586 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:32:34,595 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:32:34,598 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:32:34,602 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:32:34,603 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:32:34,603 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:32:34,616 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:32:34,616 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:32:34,616 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:32:34,616 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:32:34,617 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:32:34,664 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:32:34,668 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:32:34,668 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
-2026-04-08 23:41:30,195 [main] DEBUG main.java.com.solvd.airport.Main - Cities Populated
-2026-04-08 23:41:30,202 [main] DEBUG main.java.com.solvd.airport.Main - Airports populated
-2026-04-08 23:41:30,203 [main] DEBUG main.java.com.solvd.airport.Main - Companies Populated
-2026-04-08 23:41:30,203 [main] DEBUG main.java.com.solvd.airport.Main - Aircrafts populated
-2026-04-08 23:41:30,213 [main] DEBUG main.java.com.solvd.airport.Main - Flights populated
-2026-04-08 23:41:30,216 [main] DEBUG main.java.com.solvd.airport.Main - ---------------- compilation success ----------------
-2026-04-08 23:41:30,220 [main] DEBUG main.java.com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
-2026-04-08 23:41:30,221 [main] DEBUG main.java.com.solvd.airport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
-2026-04-08 23:41:30,221 [main] DEBUG main.java.com.solvd.airport.Main - ------------------------------------
-2026-04-08 23:41:30,234 [main] DEBUG main.java.com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
-2026-04-08 23:41:30,235 [main] DEBUG main.java.com.solvd.airport.Main - Passenger Name: Mary Doe
-2026-04-08 23:41:30,235 [main] DEBUG main.java.com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+2026-04-08 23:32:34,616 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:32:34,617 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:32:34,664 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:32:34,668 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:32:34,668 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:41:30,195 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cities Populated
+2026-04-08 23:41:30,202 [main] DEBUG main.java.airport.com.solvd.arport.Main - Airports populated
+2026-04-08 23:41:30,203 [main] DEBUG main.java.airport.com.solvd.arport.Main - Companies Populated
+2026-04-08 23:41:30,203 [main] DEBUG main.java.airport.com.solvd.arport.Main - Aircrafts populated
+2026-04-08 23:41:30,213 [main] DEBUG main.java.airport.com.solvd.arport.Main - Flights populated
+2026-04-08 23:41:30,216 [main] DEBUG main.java.airport.com.solvd.arport.Main - ---------------- compilation success ----------------
+2026-04-08 23:41:30,220 [main] DEBUG main.java.airport.com.solvd.arport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-08 23:41:30,221 [main] DEBUG main.java.airport.com.solvd.arport.Main - Shortest Flight: Azul | time: 550 | available seats: 100
+2026-04-08 23:41:30,221 [main] DEBUG main.java.airport.com.solvd.arport.Main - ------------------------------------
+2026-04-08 23:41:30,234 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-08 23:41:30,235 [main] DEBUG main.java.airport.com.solvd.arport.Main - Passenger Name: Mary Doe
+2026-04-08 23:41:30,235 [main] DEBUG main.java.airport.com.solvd.arport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
 Function: First Pilot
-2026-04-08 23:41:30,235 [main] DEBUG main.java.com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
-2026-04-08 23:41:30,235 [main] DEBUG main.java.com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
-2026-04-08 23:41:30,287 [main] INFO main.java.com.solvd.airport.Main - Entry successfully registered
-2026-04-08 23:41:30,291 [main] DEBUG main.java.com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
-2026-04-08 23:41:30,303 [main] WARN main.java.com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-08 23:41:30,235 [main] DEBUG main.java.airport.com.solvd.arport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-08 23:41:30,235 [main] DEBUG main.java.airport.com.solvd.arport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-08 23:41:30,287 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
+2026-04-08 23:41:30,291 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-08 23:41:30,303 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log

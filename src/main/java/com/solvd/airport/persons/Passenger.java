@@ -1,14 +1,12 @@
-package main.java.com.solvd.airport.persons;
+package com.solvd.airport.persons;
 
-import main.java.com.solvd.airport.data.AirportFileHandler;
-import main.java.com.solvd.airport.interfaces.ICheckIn;
-import main.java.com.solvd.airport.systens.Flight;
-import main.java.com.solvd.airport.systens.Ticket;
-import main.java.com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.interfaces.ICheckIn;
+import com.solvd.airport.systens.Flight;
+import com.solvd.airport.systens.Ticket;
 
 import java.util.Objects;
 
-import static main.java.com.solvd.airport.Main.LOGGER;
+import static com.solvd.airport.Main.LOGGER;
 
 public class Passenger extends Person implements ICheckIn {
     private Ticket[] tickets;
@@ -53,16 +51,14 @@ public class Passenger extends Person implements ICheckIn {
     }
 
     public void printTickets(){
-
         LOGGER.debug("Passenger Name: "+ this.getName());
-        for(Ticket ticket: tickets){
-            if(ticket == null) continue;
-            LOGGER.debug(ticket.toString());
-            System.out.println("i was here!");
 
-        }
+        java.util.Arrays.stream(tickets)
+                .filter(java.util.Objects::nonNull)
+                .forEach(ticket -> {
+                    LOGGER.debug(ticket.toString());
+                });
     }
-
     @Override
     public String checkin(Flight flight) {
         String msg = "Error in the Checkin";

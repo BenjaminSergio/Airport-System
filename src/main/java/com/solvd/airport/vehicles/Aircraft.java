@@ -1,4 +1,4 @@
-package main.java.com.solvd.airport.vehicles;
+package com.solvd.airport.vehicles;
 
 public abstract class Aircraft extends Vehicle{
 

@@ -1,18 +1,33 @@
-package main.java.com.solvd.airport.places;
+package com.solvd.airport.places;
 
-import main.java.com.solvd.airport.utils.AirportUtils;
-import main.java.com.solvd.airport.systens.Flight;
-import main.java.com.solvd.airport.interfaces.IManageFly;
-import main.java.com.solvd.airport.interfaces.IMeasure;
-import main.java.com.solvd.airport.vehicles.Vehicle;
+import com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.systens.Flight;
+import com.solvd.airport.interfaces.IManageFly;
+import com.solvd.airport.interfaces.IMeasure;
+import com.solvd.airport.vehicles.Vehicle;
 
 import java.util.LinkedList;
+import java.util.Objects;
+import java.util.stream.IntStream;
 
 public class Airport <T extends Vehicle> implements IMeasure, IManageFly {
     private int airpotId;
     private City city;
     private Flight[] flights;
     private LinkedList<T> garage;
+
+    public AirportClimate getClimate() {
+        return climate;
+    }
+
+    public LinkedList<T> getGarage() {
+        return garage;
+    }
+
+    public int getAirpotId() {
+        return airpotId;
+    }
+
     private AirportClimate climate;
     public enum AirportClimate{
         SUN,
@@ -31,24 +46,22 @@ public class Airport <T extends Vehicle> implements IMeasure, IManageFly {
     }
 
     public String  insertFlight(Flight flight){
-        String msg = "Error - cannot inserted flight";
-        int index = 0;
-        while(flights[index] != null && index < flights.length){
-            index++;
-        }
-        if(flights[index] == null){
-            flights[index] = flight;
-            msg = "flight inserted";
-        }
-        return msg;
+        return IntStream.range(0, flights.length)
+                .boxed()
+                .filter(i -> flights[i] == null)
+                .findFirst()
+                .map(i -> {
+                    flights[i] = flight;
+                    return "flight inserted";
+                })
+                .orElse("Error - cannot inserted flight");
     }
     public Vehicle getSpecificVehicle(String vehicleId){
-        Vehicle vehicle = null;
-        for(int i = 0; i < garage.size();i++){
-            if(garage.get(i) == null) continue;
-            if(garage.get(i).getVehicleId().equals(vehicleId)) vehicle = garage.get(i);
-        }
-        return vehicle;
+        return garage.stream()
+                .filter(Objects::nonNull)
+                .filter(v -> v.getVehicleId().equals(vehicleId))
+                .findFirst()
+                .orElse(null);
     }
 
     public City getCity() {

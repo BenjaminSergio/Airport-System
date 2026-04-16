@@ -1,21 +1,28 @@
-package main.java.com.solvd.airport.systens;
+package com.solvd.airport.systens;
 
-import main.java.com.solvd.airport.companies.Company;
-import main.java.com.solvd.airport.data.AirportFileHandler;
-import main.java.com.solvd.airport.exceptions.CrewAssignmentException;
-import main.java.com.solvd.airport.exceptions.SeatAllocationException;
-import main.java.com.solvd.airport.persons.Attendant;
-import main.java.com.solvd.airport.persons.Passenger;
-import main.java.com.solvd.airport.persons.Pilot;
-import main.java.com.solvd.airport.places.Airport;
-import main.java.com.solvd.airport.places.City;
-import main.java.com.solvd.airport.utils.AirportUtils;
-import main.java.com.solvd.airport.vehicles.Aircraft;
-import main.java.com.solvd.airport.vehicles.Airplane;
+import com.solvd.airport.companies.Company;
+import com.solvd.airport.data.AirportFileHandler;
+import com.solvd.airport.exceptions.CrewAssignmentException;
+import com.solvd.airport.exceptions.SeatAllocationException;
+import com.solvd.airport.interfaces.IFilterAirport;
+import com.solvd.airport.interfaces.IFilterFlight;
+import com.solvd.airport.interfaces.IGenerateMensage;
+import com.solvd.airport.persons.Attendant;
+import com.solvd.airport.persons.Passenger;
+import com.solvd.airport.persons.Pilot;
+import com.solvd.airport.places.Airport;
+import com.solvd.airport.places.City;
+import com.solvd.airport.utils.AirportUtils;
+import com.solvd.airport.vehicles.Aircraft;
+import com.solvd.airport.vehicles.Airplane;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
-import static main.java.com.solvd.airport.Main.LOGGER;
+import static com.solvd.airport.Main.LOGGER;
 
 public abstract class AirportSystem {
     //This function serves the porpoise of encapsulate all the airport system outside main class
@@ -40,12 +47,28 @@ public abstract class AirportSystem {
 
 
         LOGGER.debug("---------------- compilation success ----------------");
+
+
         //Testing search methods
         Flight cheapest = AirportSystem.cheapestFlight(airports.get(0),airports.get(1));
         Flight shortest = AirportSystem.shortestFlight(airports.get(0),airports.get(1));
 
-        LOGGER.debug("Cheapest Flight: {} | price: {} | available seats: {}", cheapest.getCompany().getCompanyName(), cheapest.getPrice(), cheapest.getOpenSeats());
-        LOGGER.debug("Shortest Flight: {} | time: {} | available seats: {}", shortest.getCompany().getCompanyName(), shortest.getFlightTime(), shortest.getOpenSeats());
+        // 1. Create the lambda to join all parts with a space
+        IGenerateMensage msgGen = (String... parts) -> String.join(" ", parts);
+
+        String cheapestMsg = msgGen.generate(
+                "Cheapest Flight:", cheapest.getCompany().getCompanyName(),
+                "| price:", String.valueOf(cheapest.getPrice()),
+                "| available seats:", String.valueOf(cheapest.getOpenSeats())
+        );
+        LOGGER.debug(cheapestMsg);
+
+        String shortestMsg = msgGen.generate(
+                "Shortest Flight:", shortest.getCompany().getCompanyName(),
+                "| time:", shortest.getFlightTime(), // getFlightTime() already returns a String
+                "| available seats:", String.valueOf(shortest.getOpenSeats())
+        );
+        LOGGER.debug(shortestMsg);
 
         //Testing Polymorphs and override
         LOGGER.debug("------------------------------------");
@@ -68,6 +91,9 @@ public abstract class AirportSystem {
             LOGGER.warn(e);
         }
         AirportFileHandler.countTicketsInFile(AirportUtils.DEFAULT_TICKET_DATA_PATH);
+
+        checkAirportsClimate(cities.getFirst(), Airport.AirportClimate.SUN);
+        checkFligthStatus(airports.getFirst(), Flight.FlightStatus.SCHEDULED);
     }
 
     //Functions to populate a database with mock data to test the airport system
@@ -112,39 +138,48 @@ public abstract class AirportSystem {
 
     //Functions to help the passenger find the best way to travel (cheapest and sortest)
     public static Flight cheapestFlight(Airport departureAirport, Airport arrivalAirport){
-        Flight cheapestFlight = null;
-        double cheapestPrice = 99999999;
-        double flightPrice = 0;
-        for(Flight flight:departureAirport.getFlights()){
-            if(flight !=null){
-                if(flight.getArrivalAirport().equals(arrivalAirport)){
-                    flightPrice = flight.getPrice();
-                    if(flightPrice < cheapestPrice){
-                        cheapestPrice = flightPrice;
-                        cheapestFlight = flight;
-                    }
-                }
-            }
-        }
+        IFilterFlight destinationFilter = flight -> flight.getArrivalAirport().equals(arrivalAirport);
+        Flight cheapestFlight = Arrays.stream(departureAirport.getFlights())
+                .filter(Objects::nonNull)
+                .filter(destinationFilter::test)
+                .min(Comparator.comparingDouble(Flight::getPrice))
+                .orElse(null);
         return cheapestFlight;
     }
     public static Flight shortestFlight(Airport departureAirport, Airport arrivalAirport){
-        Flight shortestFlight = null;
-        int shortestTime = 99999999;
-        int flightTime = 0;
-        for(Flight flight:departureAirport.getFlights()){
-            if(flight !=null){
-                if(flight.getArrivalAirport().equals(arrivalAirport)){
-                    flightTime = Integer.parseInt(flight.getFlightTime());
-                    if(flightTime < shortestTime){
-                        shortestTime = flightTime;
-                        shortestFlight = flight;
-                    }
-                }
-            }
-        }
+        IFilterFlight destinationFilter = flight -> flight.getArrivalAirport().equals(arrivalAirport);
+        Flight shortestFlight = Arrays.stream(departureAirport.getFlights())
+                .filter(Objects::nonNull)
+                .filter(destinationFilter::test)
+                .min(Comparator.comparingInt(f -> Integer.parseInt(f.getFlightDistance())))
+                .orElse(null);
         return shortestFlight;
     }
+    public static String checkFligthStatus(Airport airport, Flight.FlightStatus status){
+        IFilterFlight statusFilter = flight -> flight.getStatus() == status;
+
+        String msg = Arrays.stream(airport.getFlights())
+                .filter(Objects::nonNull)
+                .filter(statusFilter::test)
+                .map(flight -> String.valueOf(flight.getFlightId()))
+                .collect(Collectors.joining(", "));
+
+        return msg;
+    }
+
+    public static String checkAirportsClimate(City city, Airport.AirportClimate climate){
+        IFilterAirport climateFilter = airport -> airport.getClimate() == climate;
+        IFilterAirport cityFilter = airpoty -> airpoty.getCity() == city;
+
+        String matchingAirports = airports.stream()
+                .filter(Objects::nonNull)
+                .filter(climateFilter::test)
+                .filter(cityFilter::test)
+                .map(airport -> String.valueOf(airport.getAirpotId()))
+                .collect(Collectors.joining(", "));
+        return matchingAirports;
+    }
+
     public static String seatAllocation(Passenger passenger, Flight flight) throws SeatAllocationException {
         return flight.assignSeat(passenger);
     }
