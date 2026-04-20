@@ -11,7 +11,7 @@
         <Root level="INFO">
             <AppenderRef ref="CONSOLE" level ="WARN"/>
         </Root>
-        <Logger name ="main.java.com.solvd.airport.Main" level="DEBUG">
+        <Logger name ="com.solvd.airport.Main" level="DEBUG">
             <AppenderRef ref ="DEBUG_LOG"/>
         </Logger>
     </Loggers>

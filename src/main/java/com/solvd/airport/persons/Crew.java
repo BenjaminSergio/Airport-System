@@ -1,8 +1,11 @@
 package com.solvd.airport.persons;
 
+import com.solvd.airport.interfaces.ICheckIn;
+import com.solvd.airport.systens.Flight;
+
 import java.util.Objects;
 
-public abstract class Crew extends Person{
+public abstract class Crew extends Person  {
     private String function;
 
     public Crew(String name, int age, String id, String function) {

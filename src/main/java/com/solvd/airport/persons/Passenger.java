@@ -2,7 +2,7 @@ package com.solvd.airport.persons;
 
 import com.solvd.airport.interfaces.ICheckIn;
 import com.solvd.airport.systens.Flight;
-import com.solvd.airport.systens.Ticket;
+import com.solvd.airport.records.Ticket;
 
 import java.util.Objects;
 
@@ -63,7 +63,7 @@ public class Passenger extends Person implements ICheckIn {
     public String checkin(Flight flight) {
         String msg = "Error in the Checkin";
         if(flight == null) msg = msg+" - Flight null";
-        msg = "Passenger checkin in the +" + flight.toString();
+        else msg = "Passenger checkin in the +" + flight.toString();
         return msg;
     }
 }

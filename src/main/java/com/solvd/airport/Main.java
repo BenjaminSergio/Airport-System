@@ -13,11 +13,6 @@ public class Main {
     }
 
     public static final Logger LOGGER = LogManager.getLogger(Main.class);
-    /*  Usage Cases // Because of the way info is set, it only shows in the console if its warn or more
-        LOGGER.info("This is a log info message");
-        LOGGER.warn("This is a log warn message");
-        LOGGER.debug("Debug");*/
-
     public static void main(String[] args) {
         AirportSystem.functionalityTest();
         LOGGER.warn("Compilation success!, view more in debug.log");

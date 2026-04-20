@@ -9,7 +9,8 @@ import com.solvd.airport.persons.Crew;
 import com.solvd.airport.persons.Passenger;
 import com.solvd.airport.persons.Pilot;
 import com.solvd.airport.places.Airport;
-import com.solvd.airport.places.City;
+import com.solvd.airport.records.City;
+import com.solvd.airport.records.Ticket;
 import com.solvd.airport.utils.AirportUtils;
 import com.solvd.airport.vehicles.Aircraft;
 
@@ -150,7 +151,9 @@ public class Flight {
 
 
     public Ticket createTicket(Passenger passenger, Seat seat){
-        Ticket ticket = new Ticket(passenger.getName(), this.getCompany().getCompanyName(),Integer.toString(this.flightId),seat.getSeatId(),this.flightTime,this.flightDate,this.departureCity.getCityName(),this.arrivalCity.getCityName(),this.price);
+        Ticket ticket = new Ticket(passenger.getId(), passenger.getName(), this.getCompany().getCompanyName(),Integer.toString(this.flightId),
+                seat.getSeatId(),this.flightTime,this.flightDate,this.departureCity.cityName(),this.arrivalCity.cityName(),
+                this.price);
         Ticket[] tickets = passenger.getTickets();
         for(int index = 0; index < tickets.length;index++){
             if(tickets[index] != null) continue;

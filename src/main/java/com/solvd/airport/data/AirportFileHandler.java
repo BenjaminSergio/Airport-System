@@ -1,6 +1,6 @@
 package com.solvd.airport.data;
 
-import com.solvd.airport.systens.Ticket;
+import com.solvd.airport.records.Ticket;
 import com.solvd.airport.utils.AirportUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
