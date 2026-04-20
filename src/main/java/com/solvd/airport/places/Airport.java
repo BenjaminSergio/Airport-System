@@ -1,5 +1,6 @@
 package com.solvd.airport.places;
 
+import com.solvd.airport.records.City;
 import com.solvd.airport.utils.AirportUtils;
 import com.solvd.airport.systens.Flight;
 import com.solvd.airport.interfaces.IManageFly;

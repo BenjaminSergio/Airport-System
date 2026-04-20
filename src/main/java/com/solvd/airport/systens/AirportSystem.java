@@ -11,7 +11,8 @@ import com.solvd.airport.persons.Attendant;
 import com.solvd.airport.persons.Passenger;
 import com.solvd.airport.persons.Pilot;
 import com.solvd.airport.places.Airport;
-import com.solvd.airport.places.City;
+import com.solvd.airport.records.City;
+import com.solvd.airport.records.VehicleModel;
 import com.solvd.airport.utils.AirportUtils;
 import com.solvd.airport.vehicles.Aircraft;
 import com.solvd.airport.vehicles.Airplane;
@@ -87,6 +88,8 @@ public abstract class AirportSystem {
         }
         try{
             LOGGER.debug(seatAllocation(passenger02,cheapest));
+            passenger02.printTickets();
+            LOGGER.debug(pilot1.toString());
         }catch(SeatAllocationException e){
             LOGGER.warn(e);
         }
@@ -98,10 +101,10 @@ public abstract class AirportSystem {
 
     //Functions to populate a database with mock data to test the airport system
     public static void populateCities(){
-        cities.add(new City("Rio de Janeiro"));
-        cities.add(new City("New York"));
-        cities.add(new City("Mexico ity"));
-        cities.add(new City("Los Angeles"));
+        cities.add(new City("Rio de Janeiro","-22.906847","-43.172897"));
+        cities.add(new City("New York","40.730610","-73.935242"));
+        cities.add(new City("Mexico ity","19.432608","-99.133209"));
+        cities.add(new City("Los Angeles","34.052235","-118.243683"));
         LOGGER.debug("Cities Populated");
     }
     public static void populateAirports(){
@@ -118,11 +121,13 @@ public abstract class AirportSystem {
         LOGGER.debug("Companies Populated");
     }
     public static void populateAircrafts(){
-        Airplane airplane01 = new Airplane("737", "Boeing", 100, 6, 17);
-        Airplane airplane02 = new Airplane("747", "Boeing", 100, 6, 17);
+        VehicleModel model1 = new VehicleModel("Boeing - 747","Boeing");
+        VehicleModel model2 = new VehicleModel("Boeing 787 Dreamliner","Boeing");
+        Airplane airplane01 = new Airplane("737", model1, 100, 6, 17);
+        Airplane airplane02 = new Airplane("747", model2, 100, 6, 17);
         companies.get(0).insertAircraft((Aircraft) airplane01);
         companies.get(1).insertAircraft((Aircraft) airplane02);
-        LOGGER.debug("Aircrafts populated");
+        LOGGER.debug("Aircraft populated");
     }
     public static void populateFlights() {
         Flight flight01 = new Flight(companies.get(0).getAircraft(0), airports.get(0), airports.get(1),

@@ -619,3 +619,246 @@ Function: First Pilot
 2026-04-08 23:41:30,287 [main] INFO main.java.airport.com.solvd.arport.Main - Entry successfully registered
 2026-04-08 23:41:30,291 [main] DEBUG main.java.airport.com.solvd.arport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
 2026-04-08 23:41:30,303 [main] WARN main.java.airport.com.solvd.arport.Main - Compilation success!, view more in debug.log
+2026-04-19 19:13:56,855 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 19:13:56,863 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 19:13:56,864 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 19:13:56,864 [main] DEBUG com.solvd.airport.Main - Aircrafts populated
+2026-04-19 19:13:56,881 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 19:13:56,884 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 19:13:56,892 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 19:13:56,892 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 19:13:56,892 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 19:13:56,912 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 19:13:56,912 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 19:13:56,913 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 19:13:56,918 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 19:13:56,919 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 19:13:56,990 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 19:13:56,994 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 19:13:56,994 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 19:13:56,994 [main] DEBUG com.solvd.airport.Main - Ticket[passengerName=Mary Doe, companyName=Gol, flightId=1562077737, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 19:13:56,994 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 19:13:57,023 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 20:44:34,391 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 20:44:34,399 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 20:44:34,400 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 20:44:34,401 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 20:44:34,417 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 20:44:34,421 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 20:44:34,429 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 20:44:34,429 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 20:44:34,429 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 20:44:34,451 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 20:44:34,451 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 20:44:34,452 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 20:44:34,457 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 20:44:34,458 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 20:44:34,538 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 20:44:34,542 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 20:44:34,542 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 20:44:34,542 [main] DEBUG com.solvd.airport.Main - Ticket[passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 20:44:34,542 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 20:44:34,563 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 21:39:33,624 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 21:39:33,631 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 21:39:33,633 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 21:39:33,634 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 21:39:33,651 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 21:39:33,656 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 21:39:33,664 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 21:39:33,664 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 21:39:33,664 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 21:39:33,683 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 21:39:33,684 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 21:39:33,685 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 21:39:33,689 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 21:39:33,690 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 21:40:52,366 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 21:40:52,373 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 21:40:52,374 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 21:40:52,374 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 21:40:52,391 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 21:40:52,395 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 21:40:52,403 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 21:40:52,403 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 21:40:52,404 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 21:40:52,424 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 21:40:52,424 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 21:40:52,426 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 21:40:52,431 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 21:40:52,432 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 21:47:54,560 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 21:47:54,567 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 21:47:54,568 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 21:47:54,569 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 21:47:54,586 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 21:47:54,590 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 21:47:54,597 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 21:47:54,597 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 21:47:54,597 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 21:47:54,610 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 21:47:54,610 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 21:47:54,611 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 21:47:54,616 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 21:47:54,618 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 21:51:33,073 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 21:51:33,080 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 21:51:33,081 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 21:51:33,081 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 21:51:33,097 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 21:51:33,102 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 21:51:33,110 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 21:51:33,110 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 21:51:33,110 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 21:51:33,132 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 21:51:33,132 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 21:51:33,133 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 21:51:33,138 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 21:51:33,139 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 21:51:33,220 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 21:51:33,225 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 21:51:33,225 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 21:51:33,225 [main] DEBUG com.solvd.airport.Main - Ticket[passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 21:51:33,225 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 21:51:33,248 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:21:29,673 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:21:29,679 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:21:29,680 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:21:29,681 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:21:29,697 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:21:29,702 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:21:29,709 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:21:29,710 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:21:29,710 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:21:29,729 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:21:29,729 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:21:29,731 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:21:29,735 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:21:29,736 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:21:29,775 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:21:29,779 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:21:29,779 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:21:29,780 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=987654321, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:21:29,780 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:21:29,797 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:32:03,926 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:32:03,932 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:32:03,933 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:32:03,934 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:32:03,952 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:32:03,955 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:32:03,964 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:32:03,964 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:32:03,964 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:32:03,984 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:32:03,984 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:32:03,985 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:32:03,990 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:32:03,991 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:32:04,038 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:32:04,042 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:32:04,042 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:32:04,043 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=987654321, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:32:04,043 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:32:04,060 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:33:14,359 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:33:14,367 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:33:14,368 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:33:14,369 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:33:14,386 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:33:14,390 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:33:14,400 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:33:14,401 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:33:14,401 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:33:14,421 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:33:14,421 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:33:14,422 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:33:14,427 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:33:14,428 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:33:14,471 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:33:14,476 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:33:14,476 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:33:14,477 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=987654321, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:33:14,477 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:33:14,495 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:36:23,567 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:36:23,576 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:36:23,577 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:36:23,578 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:36:23,597 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:36:23,602 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:36:23,611 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:36:23,611 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:36:23,612 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:36:23,633 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:36:23,633 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:36:23,635 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:36:23,641 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:36:23,642 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:36:23,688 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:36:23,692 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:36:23,692 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:36:23,693 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=***, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:36:23,693 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:36:23,712 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:36:51,218 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:36:51,225 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:36:51,226 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:36:51,227 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:36:51,242 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:36:51,246 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:36:51,254 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:36:51,254 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:36:51,254 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:36:51,273 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:36:51,274 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:36:51,275 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:36:51,280 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:36:51,281 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:36:51,321 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:36:51,325 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:36:51,326 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:36:51,327 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=******, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:36:51,327 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:36:51,344 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-19 22:37:28,396 [main] DEBUG com.solvd.airport.Main - Cities Populated
+2026-04-19 22:37:28,402 [main] DEBUG com.solvd.airport.Main - Airports populated
+2026-04-19 22:37:28,404 [main] DEBUG com.solvd.airport.Main - Companies Populated
+2026-04-19 22:37:28,405 [main] DEBUG com.solvd.airport.Main - Aircraft populated
+2026-04-19 22:37:28,420 [main] DEBUG com.solvd.airport.Main - Flights populated
+2026-04-19 22:37:28,423 [main] DEBUG com.solvd.airport.Main - ---------------- compilation success ----------------
+2026-04-19 22:37:28,431 [main] DEBUG com.solvd.airport.Main - Cheapest Flight: Gol | price: 499.99 | available seats: 100
+2026-04-19 22:37:28,431 [main] DEBUG com.solvd.airport.Main - Shortest Flight: Gol | time: 600 | available seats: 100
+2026-04-19 22:37:28,431 [main] DEBUG com.solvd.airport.Main - ------------------------------------
+2026-04-19 22:37:28,444 [main] DEBUG com.solvd.airport.Main - Person: Mary Doe Id: 987654321 Age: 19 Number of Baggages: 0 | Total Weight: 0
+2026-04-19 22:37:28,444 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:37:28,446 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:37:28,451 [main] DEBUG com.solvd.airport.Main - Pilot Allocation: Success - Pilot Assigned
+2026-04-19 22:37:28,452 [main] DEBUG com.solvd.airport.Main - Attendant Allocation: Success - Attendant Assigned
+2026-04-19 22:37:28,502 [main] INFO com.solvd.airport.Main - Entry successfully registered
+2026-04-19 22:37:28,506 [main] DEBUG com.solvd.airport.Main - Success - Seat reserved! Passenger Mary Doe allocated in seat: 00-0
+2026-04-19 22:37:28,506 [main] DEBUG com.solvd.airport.Main - Passenger Name: Mary Doe
+2026-04-19 22:37:28,507 [main] DEBUG com.solvd.airport.Main - Ticket[passengerId=******, passengerName=Mary Doe, companyName=Gol, flightId=-64436177, seatId=00-0, flightTime=600, flightDate=2025-12-01, departureCity=Rio de Janeiro, arrivalCity=New York, price=499.99]
+2026-04-19 22:37:28,507 [main] DEBUG com.solvd.airport.Main - Person: Andrey Smirnov Id: 23134143-3123 Age: 45
+Function: First Pilot
+2026-04-19 22:37:28,525 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log

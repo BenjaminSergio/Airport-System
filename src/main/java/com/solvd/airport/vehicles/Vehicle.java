@@ -1,10 +1,15 @@
 package com.solvd.airport.vehicles;
 
-public abstract class Vehicle {
-    private String vehicleId;
-    private String vehicleModel;
+import com.solvd.airport.interfaces.IDrive;
+import com.solvd.airport.interfaces.IPark;
+import com.solvd.airport.records.VehicleModel;
 
-    public Vehicle(String vehicleId, String vehicleModel) {
+public abstract class Vehicle implements IPark, IDrive {
+    private String vehicleId;
+    private VehicleModel vehicleModel;
+    private boolean isParked;
+
+    public Vehicle(String vehicleId, VehicleModel vehicleModel) {
         this.vehicleId = vehicleId;
         this.vehicleModel = vehicleModel;
     }
@@ -13,9 +18,10 @@ public abstract class Vehicle {
         return vehicleId;
     }
 
-    public String getVehicleModel() {
-        return vehicleModel;
+    public VehicleModel getVehicleModel() {
+        return this.vehicleModel;
     }
+    public  boolean isParked(){return this.isParked;}
 
     @Override
     public String toString() {

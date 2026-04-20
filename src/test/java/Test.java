@@ -1,8 +1,6 @@
-package test;
-
 import com.solvd.airport.systens.AirportSystem;
 
-import static main.java.com.solvd.airport.Main.LOGGER;
+import static com.solvd.airport.Main.LOGGER;
 
 public class Test {
     public static void main(String[] args) {
