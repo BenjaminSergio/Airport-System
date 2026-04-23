@@ -24,6 +24,11 @@ public class ConnectionPool {
     public Connection acquire() throws InterruptedException{
         return free.take();
     }
+    public void release(Connection c) {
+        if (c != null) {
+            free.offer(c);
+        }
+    }
     public void shutdown(){
         for(Connection c : free) c.close();
         free.clear();

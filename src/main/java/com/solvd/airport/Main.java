@@ -29,11 +29,14 @@ public class Main {
 //        thread.start();
 
         ThreadUtils threadUtils = new ThreadUtils();
+        /*
         try {
             threadUtils.runWorkers();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+*/
+        threadUtils.runFutureWorkers();
         LOGGER.warn("Compilation success!, view more in debug.log");
     }
 }

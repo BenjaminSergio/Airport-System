@@ -1001,3 +1001,25 @@ Function: First Pilot
 2026-04-23 00:30:55,819 [pool-2-thread-5] INFO com.solvd.airport.Main - pool-2-thread-5 Released Connection#5
 2026-04-23 00:30:55,819 [pool-2-thread-2] INFO com.solvd.airport.Main - pool-2-thread-2 Released Connection#1
 2026-04-23 00:31:03,803 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
+2026-04-23 10:54:52,729 [pool-2-thread-3] INFO com.solvd.airport.Main - pool-2-thread-3 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-5] INFO com.solvd.airport.Main - pool-2-thread-5 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-2] INFO com.solvd.airport.Main - pool-2-thread-2 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-7] INFO com.solvd.airport.Main - pool-2-thread-7 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-6] INFO com.solvd.airport.Main - pool-2-thread-6 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-4] INFO com.solvd.airport.Main - pool-2-thread-4 Waiting for Connection
+2026-04-23 10:54:52,729 [pool-2-thread-1] INFO com.solvd.airport.Main - pool-2-thread-1 Waiting for Connection
+2026-04-23 10:54:52,733 [pool-2-thread-1] INFO com.solvd.airport.Main - pool-2-thread-1 got Connection#5
+2026-04-23 10:54:52,733 [pool-2-thread-7] INFO com.solvd.airport.Main - pool-2-thread-7 got Connection#3
+2026-04-23 10:54:52,733 [pool-2-thread-2] INFO com.solvd.airport.Main - pool-2-thread-2 got Connection#2
+2026-04-23 10:54:52,733 [pool-2-thread-6] INFO com.solvd.airport.Main - pool-2-thread-6 got Connection#4
+2026-04-23 10:54:52,733 [pool-2-thread-5] INFO com.solvd.airport.Main - pool-2-thread-5 got Connection#1
+2026-04-23 10:54:54,736 [pool-2-thread-2] INFO com.solvd.airport.Main - 1 Released Connection#2
+2026-04-23 10:54:54,736 [pool-2-thread-7] INFO com.solvd.airport.Main - 6 Released Connection#3
+2026-04-23 10:54:54,736 [pool-2-thread-6] INFO com.solvd.airport.Main - 5 Released Connection#4
+2026-04-23 10:54:54,736 [pool-2-thread-1] INFO com.solvd.airport.Main - 0 Released Connection#5
+2026-04-23 10:54:54,736 [pool-2-thread-3] INFO com.solvd.airport.Main - pool-2-thread-3 got Connection#2
+2026-04-23 10:54:54,736 [pool-2-thread-4] INFO com.solvd.airport.Main - pool-2-thread-4 got Connection#3
+2026-04-23 10:54:54,742 [pool-2-thread-5] INFO com.solvd.airport.Main - 4 Released Connection#1
+2026-04-23 10:54:56,738 [pool-2-thread-3] INFO com.solvd.airport.Main - 2 Released Connection#2
+2026-04-23 10:54:56,738 [pool-2-thread-4] INFO com.solvd.airport.Main - 3 Released Connection#3
+2026-04-23 10:54:56,741 [main] WARN com.solvd.airport.Main - Compilation success!, view more in debug.log
